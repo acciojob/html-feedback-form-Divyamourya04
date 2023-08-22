@@ -9,16 +9,15 @@
 <body>
 	<header>
 		<h1>Feedback Form</h1>
-
 <form action="/action_page.php" method="get"> 
-  <label for="name">Name</label><br>
-  <input type="Text" minlength="3" maxlength="50"  name="name" required><br>
+  <label for="name" >Name</label><br>
+  <input type="Text" minlength="3" maxlength="50"  id="name" name="name" required><br>
   <label for="portfolio">Portfolio</label><br>
-  <input type="URL" required name="portfolio"><br>
+  <input type="URL" required id="portfolio" name="portfolio"><br>
 	 <label for="favColor">Favorite Color</label><br>
-  <input type="Color" name="favColor"><br>
+  <input type="Color" id="favColor" name="favColor"><br>
 	<label for="likeness">Likeness</label><br>
-  <input type="Range" min="7" max="100" name="likeness" ><br>
+  <input type="Range" min="1" max="100" id="likeness" name="likeness" ><br>
 	<br>
   <input type="submit" value="Submit">
 </form>
